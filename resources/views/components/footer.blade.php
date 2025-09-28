@@ -1,0 +1,20 @@
+<script>
+  const swiper = new Swiper('.mySwiper', {
+    loop: true,
+    pagination: {
+      el: '.swiper-pagination',
+      clickable: true,
+    },
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+    autoplay: {
+      delay: 3000, // Ganti 3000 sesuai kecepatan (ms)
+      disableOnInteraction: false,
+    },
+  });
+</script>
+</body>
+
+</html>
